@@ -10,6 +10,8 @@
 def my_func_1(x: float, y: int) -> float:
     """
     Функция возводит число x в степень y.
+    x - действительное положительное число.
+    y - целое отрицательное число.
     :param x: int
     :param y: int
     :return: float
@@ -21,6 +23,8 @@ def my_func_1(x: float, y: int) -> float:
 def my_func_2(x: float, y: int) -> float:
     """
     Функция возводит число x в степень y.
+    x - действительное положительное число.
+    y - целое отрицательное число.
     :param x: int
     :param y: int
     :return: float
