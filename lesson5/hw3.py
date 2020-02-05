@@ -17,4 +17,4 @@ with open('3.txt', 'r', encoding='utf-8') as file:
         if int(salary) < 20000:
             print(f"Сотрудники {name} имеет доход ниже 20000 в месяц.")
         sum_salary += int(salary)
-    print(f"Средний доход на сотрудника: {sum_salary/len(employees)}")
+    print(f"Средний доход на сотрудников: {sum_salary/len(employees)}")

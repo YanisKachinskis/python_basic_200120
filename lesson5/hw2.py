@@ -4,7 +4,7 @@
 количества слов в каждой строке.
 """
 i = 1
-with open('3.txt', 'r', encoding='utf-8') as file:
+with open('2.txt', 'r', encoding='utf-8') as file:
     all_data = file.readlines()
     print(f"В файле {len(all_data)} строк(и)")
     for line in all_data:
