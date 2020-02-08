@@ -16,6 +16,7 @@ from itertools import cycle
 class TrafficLight:
     __color = 'red'
 
+    # без проверки порядка режимов
     def running(self):
         while True:
             self.__color = 'красный'
@@ -27,7 +28,7 @@ class TrafficLight:
             self.__color = 'зеленый'
             print(f"Загорелся {self.__color} сигнал светофора!")
             time.sleep(7)
-
+    # с проверкой порядка работы режимов
     def running1(self):
         for next_color in cycle(['yellow', 'green', 'red']):
             if self.__color == 'red' and next_color == 'yellow':
